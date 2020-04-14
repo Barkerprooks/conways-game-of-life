@@ -4,11 +4,15 @@ R.I.P John Horton Conway
 
 The Game of Life in c for linux
 ```
-### how to build and run
+### Requirements
+- A unix environment (Linux/FreeBSD/MacOS)
+- Bash
+- GNU C Compiler (GCC)
+- ```curses``` or ```ncurses``` TUI Library for c
+### How to build and run
 ```
 $ bash build.sh
-$ ./life
+$ ./run
 ```
-
-### editing initial layout
-use your favorite text editor on ```data/matrix```
+### Editing initial layout
+use your favorite text editor to edit ```data/matrix```
