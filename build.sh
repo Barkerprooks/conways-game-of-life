@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BIN="game-of-life_$(uname -a).bin"
+BIN="game-of-life_$(uname -m).bin"
 
 function build() {
 	mkdir -p bin
