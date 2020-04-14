@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 		output(game);
 		update(game);
 
-	} while (game->living_agents > 0);
+	} while (game->living_agents > 0 && game->iteration <= 550);
 
 	free(game);
 	endwin();

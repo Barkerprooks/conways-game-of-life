@@ -259,7 +259,7 @@ void output(struct life *game)
 		strcat(mat_buff, "\n");
 	}
 
-	sprintf(mat_info, "\nday: %u\nalive: %u\n\nPress ctrl+c to exit.", game->iteration, game->living_agents);
+	sprintf(mat_info, "\nday: %u / 550\nalive: %u\n\nPress ctrl+c to exit.", game->iteration, game->living_agents);
 	
 	addstr(mat_buff);
 	addstr(mat_info);
