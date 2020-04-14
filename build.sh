@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+BIN="game-of-life_$(uname -a).bin"
+
 function build() {
 	mkdir -p bin
-	gcc -o bin/game-of-life_$(uname -m).bin src/main.c -l curses
-	ln -sf $PWD/bin/game-of-life $PWD/run
+	gcc -o bin/$BIN src/main.c -l curses
+	ln -sf $PWD/bin/$BIN $PWD/run
 }
 
 if [[ $1 == '-c' || $1 == '--clean' ]];
