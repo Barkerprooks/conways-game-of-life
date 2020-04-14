@@ -9,3 +9,6 @@ The Game of Life in c for linux
 $ bash build.sh
 $ ./life
 ```
+
+### editing initial layout
+use your favorite text editor on ```data/matrix```
