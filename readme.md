@@ -4,6 +4,7 @@ R.I.P John Horton Conway
 
 The Game of Life in c for linux
 ```
+![Game of Life](data/game-of-life.gif)
 ### Requirements
 - A unix environment (Linux/FreeBSD/MacOS)
 - Bash
