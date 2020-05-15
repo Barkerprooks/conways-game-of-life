@@ -265,5 +265,5 @@ void output(struct life *game)
 	addstr(mat_info);
 
 	refresh();
-	usleep(10000);
+	usleep(100000);
 }
